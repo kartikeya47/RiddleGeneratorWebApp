@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Orbitron&display=swap');
+
+body {
+    font-family: 'Handjet', cursive;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 8px #fff;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.title {
+    font-size: 2.2em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+
+    @media (max-width: 768px) {
+        font-size: 2em;
+    }
+}
+
+.subTitle {
+    font-size: 1.4em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 180px;
+
+    @media (max-width: 768px) {
+        font-size: 1em;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.input {
+    font-family: 'Handjet', cursive;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.genBtn {
+    position: relative;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #4e4e4e;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    font-family: 'Handjet', cursive;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+}
+
+.genBtn:hover {
+    background-color: #fff;
+    color: #212121;
+    box-shadow: 0 0 5px #fff, 0 0 25px #fff;
+}
+
+.ansBtn {
+    position: relative;
+    padding: 8px 20px;
+    margin: 20px;
+    color: #4e4e4e;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    font-family: 'Handjet', cursive;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+}
+
+.ansBtn:hover {
+    background-color: #fff;
+    color: #212121;
+    box-shadow: 0 0 5px #fff, 0 0 25px #fff;
+}

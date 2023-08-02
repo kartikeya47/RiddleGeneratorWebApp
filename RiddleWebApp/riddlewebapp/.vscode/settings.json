@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/884fc09a-eea2-4430-9255-d43df364b02a/resourceGroups/riddlegeneratorwebapp/providers/Microsoft.Web/sites/riddlegeneratorwebapp",
+    "appService.deploySubpath": "."
+}
